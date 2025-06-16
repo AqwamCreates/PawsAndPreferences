@@ -6,7 +6,8 @@
   "homepage": "https://aqwamcreates.github.io/PawsAndPreferences",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
